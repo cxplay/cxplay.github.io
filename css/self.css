@@ -1,0 +1,30 @@
+/* 版权链接去掉下划线 */
+
+.layout_post .post-copyright .post-copyright-info a {
+    text-decoration: none;
+}
+
+/* 页脚透明 */
+
+#footer {
+    background: transparent !important;
+}
+
+/* a标签默认颜色 */
+
+#article-container a {
+    color: #2e317c;
+    text-decoration: none;
+}
+
+/* 鼠标悬停时的颜色 */
+
+#article-container a:hover {
+    color: #8076a3;
+    text-decoration: none;
+}
+/*a标签颜色*/
+a {
+    color: #2e317c;
+}
+
