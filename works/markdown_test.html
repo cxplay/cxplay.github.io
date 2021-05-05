@@ -1,0 +1,393 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Markdown 语法测试 | CXPLAY World</title><meta name="keywords" content="测试,文档,Markdown,语法"><meta name="author" content="CXPLAY"><meta name="copyright" content="CXPLAY"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="这是我的 Markdown 语法备忘录以及语法渲染支持测试.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown 语法测试">
+<meta property="og:url" content="http://cxplay.org/works/markdown_test.html">
+<meta property="og:site_name" content="CXPLAY World">
+<meta property="og:description" content="这是我的 Markdown 语法备忘录以及语法渲染支持测试.">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.filel.ink/img/blog/def_cover.png">
+<meta property="article:published_time" content="2020-03-21T12:46:25.000Z">
+<meta property="article:modified_time" content="2021-04-12T15:20:19.570Z">
+<meta property="article:author" content="CXPLAY">
+<meta property="article:tag" content="测试">
+<meta property="article:tag" content="文档">
+<meta property="article:tag" content="Markdown">
+<meta property="article:tag" content="语法">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.filel.ink/img/blog/def_cover.png"><link rel="shortcut icon" href="https://raw.filel.ink/img/ico/favicon.ico"><link rel="canonical" href="http://cxplay.org/works/markdown_test"><link rel="preconnect" href="//cdn.jsdelivr.net"/><meta name="baidu-site-verification" content="code-oiHI1XPcT8"/><link rel="stylesheet" href="https://raw.filel.ink/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search_cache.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":1000,"position":"top","messagePrev":"文章距离上次更新已有","messageNext":"天"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":280},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":1000,"languages":{"author":"作者: CXPLAY","link":"链接: ","source":"来源: CXPLAY World","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-04-12 23:20:19'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><meta itemprop="name" content="CXPLAY World"><meta itemprop="image" content="https://cxplay.org/img/ico/favicon-32x32.png"><meta name="description" itemprop="description" content="Share With You."><link rel="apple-touch-icon" sizes="180x180" href="/img/ico/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/img/ico/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/img/ico/favicon-16x16.png"><link rel="manifest" href="/img/ico/site.webmanifest"><link rel="mask-icon" href="/img/ico/safari-pinned-tab.svg" color="#5bbad5"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/rss2.xml" title="CXPLAY World" type="application/rss+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="https://raw.filel.ink/img/cxplay.png" onerror="onerror=null;src='https://raw.filel.ink/img/404.png'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">37</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-info"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/log/"><i class="fa-fw fas fa-file-alt"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E5%B9%BB%E6%83%B3%E5%BD%95/"><i class="fa-fw fas fa-book"></i><span> 幻想录</span></a></li><li><a class="site-page child" href="/categories/%E7%9F%A5%E8%AF%86%E5%BA%93/"><i class="fa-fw fas fa-book"></i><span> 知识库</span></a></li><li><a class="site-page child" href="/categories/%E6%97%A5%E8%AE%B0%E6%9C%AC/"><i class="fa-fw fas fa-book"></i><span> 日记本</span></a></li><li><a class="site-page child" href="/categories/%E6%8E%88%E8%A8%80%E5%86%8C/"><i class="fa-fw fas fa-book"></i><span> 授言册</span></a></li><li><a class="site-page child" href="/categories/%E5%8D%9A%E7%89%A9%E5%BF%97/"><i class="fa-fw fas fa-book"></i><span> 博物志</span></a></li><li><a class="site-page child" href="/categories/%E5%AF%86%E8%AF%AD%E7%93%B6/"><i class="fa-fw fas fa-book"></i><span> 密语瓶</span></a></li><li><a class="site-page child" href="/categories/%E7%A8%BF%E4%BB%B6%E5%A4%B9/"><i class="fa-fw fas fa-book"></i><span> 稿件夹</span></a></li><li><a class="site-page child" href="/categories/%E8%97%8F%E5%9B%BE%E9%A6%86/"><i class="fa-fw fas fa-book"></i><span> 藏图馆</span></a></li><li><a class="site-page child" href="/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"><i class="fa-fw fas fa-book"></i><span> 工具箱</span></a></li><li><a class="site-page child" href="/categories/%E7%BB%9D%E7%95%8C%E8%A1%8C/"><i class="fa-fw fas fa-book"></i><span> 绝界行</span></a></li><li><a class="site-page child" href="/categories/%E6%97%B6%E9%97%B4%E8%BD%B4/"><i class="fa-fw fas fa-book"></i><span> 时间轴</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://raw.filel.ink/img/blog/def_cover.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">CXPLAY World</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-info"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" href="/log/"><i class="fa-fw fas fa-file-alt"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/categories/%E5%B9%BB%E6%83%B3%E5%BD%95/"><i class="fa-fw fas fa-book"></i><span> 幻想录</span></a></li><li><a class="site-page child" href="/categories/%E7%9F%A5%E8%AF%86%E5%BA%93/"><i class="fa-fw fas fa-book"></i><span> 知识库</span></a></li><li><a class="site-page child" href="/categories/%E6%97%A5%E8%AE%B0%E6%9C%AC/"><i class="fa-fw fas fa-book"></i><span> 日记本</span></a></li><li><a class="site-page child" href="/categories/%E6%8E%88%E8%A8%80%E5%86%8C/"><i class="fa-fw fas fa-book"></i><span> 授言册</span></a></li><li><a class="site-page child" href="/categories/%E5%8D%9A%E7%89%A9%E5%BF%97/"><i class="fa-fw fas fa-book"></i><span> 博物志</span></a></li><li><a class="site-page child" href="/categories/%E5%AF%86%E8%AF%AD%E7%93%B6/"><i class="fa-fw fas fa-book"></i><span> 密语瓶</span></a></li><li><a class="site-page child" href="/categories/%E7%A8%BF%E4%BB%B6%E5%A4%B9/"><i class="fa-fw fas fa-book"></i><span> 稿件夹</span></a></li><li><a class="site-page child" href="/categories/%E8%97%8F%E5%9B%BE%E9%A6%86/"><i class="fa-fw fas fa-book"></i><span> 藏图馆</span></a></li><li><a class="site-page child" href="/categories/%E5%B7%A5%E5%85%B7%E7%AE%B1/"><i class="fa-fw fas fa-book"></i><span> 工具箱</span></a></li><li><a class="site-page child" href="/categories/%E7%BB%9D%E7%95%8C%E8%A1%8C/"><i class="fa-fw fas fa-book"></i><span> 绝界行</span></a></li><li><a class="site-page child" href="/categories/%E6%97%B6%E9%97%B4%E8%BD%B4/"><i class="fa-fw fas fa-book"></i><span> 时间轴</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/comment/"><i class="fa-fw fas fa-comment"></i><span> 留言板</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Markdown 语法测试</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-03-21T12:46:25.000Z" title="发表于 2020-03-21 20:46:25">2020-03-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-04-12T15:20:19.570Z" title="更新于 2021-04-12 23:20:19">2021-04-12</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%A8%BF%E4%BB%B6%E5%A4%B9/">稿件夹</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">405</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="leancloud_visitors" id="/works/markdown_test.html" data-flag-title="Markdown 语法测试"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span class="leancloud-visitors-count"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Markdown-语法支持测试-v1-2"><a href="#Markdown-语法支持测试-v1-2" class="headerlink" title="Markdown 语法支持测试 v1.2"></a>Markdown 语法支持测试 v1.2</h1><hr>
+<p>With VS Code</p>
+<hr>
+<h1 id="一级标题Abc"><a href="#一级标题Abc" class="headerlink" title="一级标题Abc"></a><a href="#1">一级标题Abc</a></h1><h2 id="二级标题Abc"><a href="#二级标题Abc" class="headerlink" title="二级标题Abc"></a>二级标题Abc</h2><h3 id="三级标题Abc"><a href="#三级标题Abc" class="headerlink" title="三级标题Abc"></a>三级标题Abc</h3><h4 id="四级标题Abc"><a href="#四级标题Abc" class="headerlink" title="四级标题Abc"></a>四级标题Abc</h4><h5 id="五级标题Abc"><a href="#五级标题Abc" class="headerlink" title="五级标题Abc"></a>五级标题Abc</h5><h6 id="六级标题Abc"><a href="#六级标题Abc" class="headerlink" title="六级标题Abc"></a>六级标题Abc</h6><h1 id="一级标题-次行语法Abc"><a href="#一级标题-次行语法Abc" class="headerlink" title="一级标题 次行语法Abc"></a>一级标题 次行语法Abc</h1><h2 id="二级标题-次行语法Abc"><a href="#二级标题-次行语法Abc" class="headerlink" title="二级标题 次行语法Abc"></a>二级标题 次行语法Abc</h2><hr>
+<ul>
+<li>无序列表Abc</li>
+<li>无序列表Abc<ul>
+<li>二级无序列表Abc<ul>
+<li>三级无序列表Abc</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>有序列表Abc</li>
+<li>有序列表Abc<ol>
+<li>二级有序列表Abc<ol>
+<li>三级有序列表Abc<ol>
+<li>四级有序列表Abc</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>有序列表Abc</li>
+</ol>
+<hr>
+<p><em>斜体Abc</em> <strong>加粗Abc</strong> <strong><em>斜体加粗Abc</em></strong></p>
+<p><del>删除线Abc</del> ==背景高亮Abc== </p>
+<p>++MD下划线Abc++ <u>html下划线</u></p>
+<p><font color=pink size=30>颜色大小Abc</font></p>
+<hr>
+<center>简略居中Abc</center>
+
+<p align="center">居中Abc</center>
+
+<p align="left">居左Abc</p>
+
+<p align="right">居右Abc</p>
+
+<p>&emsp;全角缩进Abc</p>
+<p>&ensp;半角缩进Abc</p>
+<hr>
+<h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">单引号</span><br><span class="line">代码块</span><br></pre></td></tr></table></figure>
+
+<pre><code>制表符
+代码块
+</code></pre>
+<p><code>短代码块</code></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">语法高亮</span><br><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;//example.png&quot;</span> <span class="attr">title</span>=<span class="string">&quot;img pic&quot;</span> <span class="attr">alt</span>= <span class="string">&quot;这是img图片&quot;</span> <span class="attr">width</span>=<span class="string">&quot;150&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="锚点-由-一级标题Abc-跳转"><a href="#锚点-由-一级标题Abc-跳转" class="headerlink" title="锚点(由 一级标题Abc 跳转)"></a>锚点(由 一级标题Abc 跳转)</h3><p><span id="1">锚点尾 (一级标题)</span></p>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p><a href="www.google.com" title="这是404小厂">链接Abc</a></p>
+<p><a href="mailto:&#x63;&#x78;&#112;&#108;&#x61;&#x79;&#x40;&#x71;&#x71;&#46;&#99;&#111;&#109;" rel="external nofollow noreferrer">&#x63;&#x78;&#112;&#108;&#x61;&#x79;&#x40;&#x71;&#x71;&#46;&#99;&#111;&#109;</a></p>
+<p>注脚语法Abc<a href="%E6%88%91%E6%98%AF%E6%B3%A8%E8%84%9AAbc">^1</a></p>
+<h3 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h3><!-- 我是注释 -->
+
+<h3 id="杂项"><a href="#杂项" class="headerlink" title="杂项"></a>杂项</h3><p>[转意符](<a target="_blank" href="http://www.google.com/" rel="external nofollow noreferrer noopener">www.google.com</a>)</p>
+<ul>
+<li><p><input disabled="" type="checkbox">  Todo list</p>
+</li>
+<li><p><input checked="" disabled="" type="checkbox">  Todo list</p>
+</li>
+</ul>
+<h3 id="参考式"><a href="#参考式" class="headerlink" title="参考式"></a>参考式</h3><p>谷歌又名<a href="www.google.com" title="Google">Google</a></p>
+<p>酷安又名<a href="www.coolapk.com" title="CoolAPK">CoolAPK</a></p>
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><blockquote>
+<p>一级引用</p>
+<blockquote>
+<p>二级引用</p>
+<blockquote>
+<p>三级引用</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><table>
+<thead>
+<tr>
+<th align="right">表格</th>
+<th align="center">格式</th>
+<th align="left">语法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="right">居右</td>
+<td align="center">居中</td>
+<td align="left">居左</td>
+</tr>
+<tr>
+<td align="right">123</td>
+<td align="center">123</td>
+<td align="left">123</td>
+</tr>
+<tr>
+<td align="right">A</td>
+<td align="center">b</td>
+<td align="left">c</td>
+</tr>
+</tbody></table>
+<h3 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h3><p>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p>
+<h3 id="目录概览"><a href="#目录概览" class="headerlink" title="目录概览"></a>目录概览</h3><p>[TOC]</p>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><h4 id="标准式图片"><a href="#标准式图片" class="headerlink" title="标准式图片"></a>标准式图片</h4><p><img src= "https://raw.filel.ink/img/loading.gif" data-lazy-src="https://m.baidu.com/static/index/plus/plus_logo_web.png" alt="图片Abc"></p>
+<h4 id="参考式图片"><a href="#参考式图片" class="headerlink" title="参考式图片"></a>参考式图片</h4><p><img src= "https://raw.filel.ink/img/loading.gif" data-lazy-src="https://m.baidu.com/static/index/plus/plus_logo_web.png" alt="图片Abc"></p>
+<h4 id="html图片"><a href="#html图片" class="headerlink" title="html图片"></a>html图片</h4><img src= "https://raw.filel.ink/img/loading.gif" data-lazy-src="https://m.baidu.com/static/index/plus/plus_logo_web.png" title="img pic" alt= "这是img图片" width="150">
+
+<h4 id="Base64图片"><a href="#Base64图片" class="headerlink" title="Base64图片"></a>Base64图片</h4><p><img src= "https://raw.filel.ink/img/loading.gif" data-lazy-src="data:image/png;base64,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" alt="QR"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">CXPLAY</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://cxplay.org/works/markdown_test.html">http://cxplay.org/works/markdown_test.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://cxplay.org" target="_blank">CXPLAY World</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%B5%8B%E8%AF%95/">测试</a><a class="post-meta__tags" href="/tags/%E6%96%87%E6%A1%A3/">文档</a><a class="post-meta__tags" href="/tags/Markdown/">Markdown</a><a class="post-meta__tags" href="/tags/%E8%AF%AD%E6%B3%95/">语法</a></div><div class="post_share"><div class="social-share" data-image="https://raw.filel.ink/img/blog/def_cover.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://raw.filel.ink/img/blog/wechat_reward.png" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://raw.filel.ink/img/blog/wechat_reward.png" alt="微信赞赏"/></a><div class="post-qr-code-desc">微信赞赏</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/works/fuck_tencent.html"><img class="prev-cover" data-lazy-src="https://raw.filel.ink/img/blog/def_cover.png" onerror="onerror=null;src='https://raw.filel.ink/img/404.png'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">频道的创建原因</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/works/hexo-markdown-write-tips-note.html" title="Hexo / Markdown 创作指南 - 我的 Hexo 博客建站心得"><img class="cover" data-lazy-src="https://i.bugimg.com/img/blog/hexo-markdown-write-tips-note/cover_top_img.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-02-24</div><div class="title">Hexo / Markdown 创作指南 - 我的 Hexo 博客建站心得</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="https://raw.filel.ink/img/cxplay.png" onerror="this.onerror=null;this.src='https://raw.filel.ink/img/404.png'" alt="avatar"/><div class="author-info__name">CXPLAY</div><div class="author-info__description">Share With You.</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">37</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://t.me/cxplayshare"><i class="fab fa-telegram-plane"></i><span>加入 Telegram 频道</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://t.me/cxplay" target="_blank" title="Telegram"><i class="fab fa-telegram-plane"></i></a><a class="social-icon" href="https://twitter.com/cxplaygo" target="_blank" title="Twitter"><i class="fab fab fa-twitter"></i></a><a class="social-icon" href="mailto:admin@cxplay.org" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="/rss2.xml" target="_blank" title="RSS"><i class="fas fa-rss"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">国际通用站点：<a href="https://cxplay.org">cxplay.org</a><br>大陆优化站点：<a target="_blank" rel="noopener" href="https://blog.bugimg.com">blog.bugimg.com</a><br>访问访问缓慢请自行切换主域.😉</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Markdown-%E8%AF%AD%E6%B3%95%E6%94%AF%E6%8C%81%E6%B5%8B%E8%AF%95-v1-2"><span class="toc-number">1.</span> <span class="toc-text">Markdown 语法支持测试 v1.2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98Abc"><span class="toc-number">2.</span> <span class="toc-text">一级标题Abc</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98Abc"><span class="toc-number">2.1.</span> <span class="toc-text">二级标题Abc</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98Abc"><span class="toc-number">2.1.1.</span> <span class="toc-text">三级标题Abc</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98Abc"><span class="toc-number">2.1.1.1.</span> <span class="toc-text">四级标题Abc</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98Abc"><span class="toc-number">2.1.1.1.1.</span> <span class="toc-text">五级标题Abc</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98Abc"><span class="toc-number">2.1.1.1.1.1.</span> <span class="toc-text">六级标题Abc</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98-%E6%AC%A1%E8%A1%8C%E8%AF%AD%E6%B3%95Abc"><span class="toc-number">3.</span> <span class="toc-text">一级标题 次行语法Abc</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98-%E6%AC%A1%E8%A1%8C%E8%AF%AD%E6%B3%95Abc"><span class="toc-number">3.1.</span> <span class="toc-text">二级标题 次行语法Abc</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97"><span class="toc-number">3.1.1.</span> <span class="toc-text">代码区块</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%94%9A%E7%82%B9-%E7%94%B1-%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98Abc-%E8%B7%B3%E8%BD%AC"><span class="toc-number">3.1.2.</span> <span class="toc-text">锚点(由 一级标题Abc 跳转)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5"><span class="toc-number">3.1.3.</span> <span class="toc-text">链接</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E9%87%8A"><span class="toc-number">3.1.4.</span> <span class="toc-text">注释</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%82%E9%A1%B9"><span class="toc-number">3.1.5.</span> <span class="toc-text">杂项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E5%BC%8F"><span class="toc-number">3.1.6.</span> <span class="toc-text">参考式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E7%94%A8"><span class="toc-number">3.1.7.</span> <span class="toc-text">引用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC"><span class="toc-number">3.1.8.</span> <span class="toc-text">表格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AC%E5%BC%8F"><span class="toc-number">3.1.9.</span> <span class="toc-text">公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E6%A6%82%E8%A7%88"><span class="toc-number">3.1.10.</span> <span class="toc-text">目录概览</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%89%87"><span class="toc-number">3.1.11.</span> <span class="toc-text">图片</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%87%E5%87%86%E5%BC%8F%E5%9B%BE%E7%89%87"><span class="toc-number">3.1.11.1.</span> <span class="toc-text">标准式图片</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E5%BC%8F%E5%9B%BE%E7%89%87"><span class="toc-number">3.1.11.2.</span> <span class="toc-text">参考式图片</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#html%E5%9B%BE%E7%89%87"><span class="toc-number">3.1.11.3.</span> <span class="toc-text">html图片</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Base64%E5%9B%BE%E7%89%87"><span class="toc-number">3.1.11.4.</span> <span class="toc-text">Base64图片</span></a></li></ol></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/works/blue_world.html" title="蓝色的世界"><img data-lazy-src="https://i.bugimg.com/u%2F1%2Fblog%2Fblue_world%2Fcover.png" onerror="this.onerror=null;this.src='https://raw.filel.ink/img/404.png'" alt="蓝色的世界"/></a><div class="content"><a class="title" href="/works/blue_world.html" title="蓝色的世界">蓝色的世界</a><time datetime="2021-04-16T06:54:29.000Z" title="发表于 2021-04-16 14:54:29">2021-04-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/works/sony_xperia_unable_to_start_breathing_lamp_is_normal.html" title="解决索尼 Xperia XZ Premium 黑屏无法充电呼吸灯闪烁"><img data-lazy-src="https://i.bugimg.com/u/1/blog/sony_xperia_unable_to_start_breathing_lamp_is_normal/006.webp" onerror="this.onerror=null;this.src='https://raw.filel.ink/img/404.png'" alt="解决索尼 Xperia XZ Premium 黑屏无法充电呼吸灯闪烁"/></a><div class="content"><a class="title" href="/works/sony_xperia_unable_to_start_breathing_lamp_is_normal.html" title="解决索尼 Xperia XZ Premium 黑屏无法充电呼吸灯闪烁">解决索尼 Xperia XZ Premium 黑屏无法充电呼吸灯闪烁</a><time datetime="2021-04-13T16:04:36.000Z" title="发表于 2021-04-14 00:04:36">2021-04-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/works/bugimg_guidebook.html" title="Bug图床使用方法及建议"><img data-lazy-src="https://i.bugimg.com/u/1/blog/bugimg_guidebook/cover.png" onerror="this.onerror=null;this.src='https://raw.filel.ink/img/404.png'" alt="Bug图床使用方法及建议"/></a><div class="content"><a class="title" href="/works/bugimg_guidebook.html" title="Bug图床使用方法及建议">Bug图床使用方法及建议</a><time datetime="2021-04-10T10:49:59.000Z" title="发表于 2021-04-10 18:49:59">2021-04-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/works/bilibili_emoji_remake.html" title="哔哩哔哩表情包 重置版 [2021.02]"><img data-lazy-src="https://i.bugimg.com/img/blog/bilibili_emoji_remake/cover.png" onerror="this.onerror=null;this.src='https://raw.filel.ink/img/404.png'" alt="哔哩哔哩表情包 重置版 [2021.02]"/></a><div class="content"><a class="title" href="/works/bilibili_emoji_remake.html" title="哔哩哔哩表情包 重置版 [2021.02]">哔哩哔哩表情包 重置版 [2021.02]</a><time datetime="2021-03-12T21:52:05.000Z" title="发表于 2021-03-13 05:52:05">2021-03-13</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/works/hexo_butterfly_img_template.html" title="Hexo - Butterfly 主题固定图片尺寸模板"><img data-lazy-src="https://i.bugimg.com/img/blog/hexo_butterfly_img_template/cover_2.png" onerror="this.onerror=null;this.src='https://raw.filel.ink/img/404.png'" alt="Hexo - Butterfly 主题固定图片尺寸模板"/></a><div class="content"><a class="title" href="/works/hexo_butterfly_img_template.html" title="Hexo - Butterfly 主题固定图片尺寸模板">Hexo - Butterfly 主题固定图片尺寸模板</a><time datetime="2021-03-04T15:32:23.000Z" title="发表于 2021-03-04 23:32:23">2021-03-04</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://raw.filel.ink/img/blog/def_cover.png')"><div id="footer-wrap"><div class="copyright">&copy;2021 By CXPLAY</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">Share With You.</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="https://raw.filel.ink/js/utils.js"></script><script src="https://raw.filel.ink/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://raw.filel.ink/js/search/local-search.js"></script><div class="js-pjax"><script>if (document.getElementsByClassName('mermaid').length) {
+  if (window.mermaidJsLoad) mermaid.init()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(() => {
+      window.mermaidJsLoad = true
+      mermaid.initialize({
+        theme: 'default',
+      })
+      true && mermaid.init()
+    })
+  }
+}</script><script>function loadWaline () {
+  function initWaline () {
+    const waline = new Waline(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://comment.cxplay.org',
+      avatar: 'monsterid',
+      path: location.pathname,
+      emojiCDN: 'https://cdn.cxplay.org/cm_emoji/',
+      emojiMaps: {"eoc_hecai":"eoc_hecai.png","eoc_zhuantou":"eoc_zhuantou.png","eoc_huishou":"eoc_huishou.png","eoc_guancha":"eoc_guancha.png","eoc_cafei":"eoc_cafei.png","eoc_tang":"eoc_tang.png","eoc_lashou":"eoc_lashou.png","eoc_ningshi":"eoc_ningshi.png","eoc_jidong":"eoc_jidong.png","eoc_beiying":"eoc_beiying.png","eoc_yiwen":"eoc_yiwen.png","eoc_shuaigan":"eoc_shuaigan.png","eoc_hezi":"eoc_hezi.png","eoc_pao":"eoc_pao.png","eoc_yuedu":"eoc_yuedu.png","eoc_diantou":"eoc_diantou.png","eoc_xietang":"eoc_xietang.png","eoc_paishou":"eoc_paishou.png","eoc_xin":"eoc_xin.png","eoc_huadao":"eoc_huadao.png","wechat_666":"wechat_666.png","wechat_jiayou":"wechat_jiayou.png","wechat_baiyan":"wechat_baiyan.png","wechat_liekai":"wechat_liekai.png","wechat_guanxin":"wechat_guanxin.png","wechat_wuyu":"wechat_wuyu.png","wechat_huaji":"wechat_huaji.png","wechat_heiha":"wechat_heiha.png","wechat_kule":"wechat_kule.png","wechat_kouzhao":"wechat_kouzhao.png","wechat_hei":"wechat_hei.png","wechat_ok":"wechat_ok.png","wechat_jingle":"wechat_jingle.png","wechat_tanqi":"wechat_tanqi.png","wechat_zhangyin":"wechat_zhangyin.png","wechat_bici":"wechat_bici.png","wechat_han":"wechat_han.png","wechat_chigua":"wechat_chigua.png","wechat_xingxingyan":"wechat_xingxingyan.png","wechat_wulian":"wechat_wulian.png","wechat_yeah":"wechat_yeah.png","wechat_doge":"wechat_doge.png","wechat_nidongde":"wechat_nidongde.png","gm_lianhong":"gm_lianhong.png","gm_hei":"gm_hei.png","gm_haoseo":"gm_haoseo.png","gm_chongle":"gm_chongle.png","gm_en":"gm_en.png","gm_ehh":"gm_ehh.png","gm_wenhao":"gm_wenhao.png","gm_sesedeshiqing":"gm_sesedeshiqing.png","gm_zhenhan":"gm_zhenhan.png","gm_wow":"gm_wow.png","gm_xingxingyan":"gm_xingxingyan.png","gm_paopao":"gm_paopao.png","gm_heiha":"gm_heiha.png","gm_emmm":"gm_emmm.png","gm_ennnn":"gm_ennnn.png","cat_kule":"cat_kule.png","cat_001":"cat_001.png","coolapk":"coolapk.png","dy_erha":"dy_erha.png","doge":"doge.png","erha":"erha.png","miao":"miao.png","tieba_huaji":"tieba_huaji.png","tieba_rhix":"tieba_rhix.png","tieba_36pd":"tieba_36pd.png","tieba_0711":"tieba_0711.png","tieba_ksa4":"tieba_ksa4.png","tieba_xuqj":"tieba_xuqj.png","tieba_ndzg":"tieba_ndzg.png","tieba_tg4o":"tieba_tg4o.png","tieba_y6kj":"tieba_y6kj.png","tieba_8hz9":"tieba_8hz9.png","tieba_vrjc":"tieba_vrjc.png","tieba_pwec":"tieba_pwec.png","tieba_wgwm":"tieba_wgwm.png","tieba_fwhm":"tieba_fwhm.png","tieba_yaq4":"tieba_yaq4.png","tieba_u303":"tieba_u303.png","tieba_vslg":"tieba_vslg.png","tieba_31xy":"tieba_31xy.png","tieba_8g8d":"tieba_8g8d.png","tieba_n0hq":"tieba_n0hq.png","tieba_z3k6":"tieba_z3k6.png","tieba_io44":"tieba_io44.png","tieba_z5ez":"tieba_z5ez.png","tieba_ssj8":"tieba_ssj8.png","tieba_f3md":"tieba_f3md.png","tieba_tu2r":"tieba_tu2r.png","tieba_zqe6":"tieba_zqe6.png","tieba_m7ih":"tieba_m7ih.png","tieba_00hw":"tieba_00hw.png","tieba_eb4m":"tieba_eb4m.png","tieba_y457":"tieba_y457.png","tieba_l9ih":"tieba_l9ih.png","tieba_22iw":"tieba_22iw.png","tieba_rp6r":"tieba_rp6r.png","tieba_du33":"tieba_du33.png","tieba_66d7":"tieba_66d7.png","tieba_npdp":"tieba_npdp.png","tieba_jhgy":"tieba_jhgy.png","tieba_6ma9":"tieba_6ma9.png","tieba_1ayw":"tieba_1ayw.png","tieba_q9fp":"tieba_q9fp.png","tieba_7pck":"tieba_7pck.png","tieba_vyzz":"tieba_vyzz.png","tieba_m1ed":"tieba_m1ed.png","tieba_avk7":"tieba_avk7.png","tieba_x2tn":"tieba_x2tn.png","tieba_h7r2":"tieba_h7r2.png","tieba_2hje":"tieba_2hje.png","tieba_quu7":"tieba_quu7.png","tieba_0u26":"tieba_0u26.png","tieba_8ye6":"tieba_8ye6.png","tieba_0k1b":"tieba_0k1b.png","tieba_5563":"tieba_5563.png","tieba_xhyr":"tieba_xhyr.png","tieba_u26d":"tieba_u26d.png","tieba_1f5c":"tieba_1f5c.png","tieba_xgw5":"tieba_xgw5.png","tieba_kw7j":"tieba_kw7j.png","tieba_jcei":"tieba_jcei.png","tieba_9nr1":"tieba_9nr1.png","tieba_eqey":"tieba_eqey.png","tieba_k01r":"tieba_k01r.png","tieba_fqp0":"tieba_fqp0.png","tieba_oh1o":"tieba_oh1o.png","tieba_ib60":"tieba_ib60.png","tieba_8l9o":"tieba_8l9o.png","tieba_s2qu":"tieba_s2qu.png","tieba_byz4":"tieba_byz4.png","tieba_g9t0":"tieba_g9t0.png","tieba_9adt":"tieba_9adt.png","tieba_ygu3":"tieba_ygu3.png","tieba_rztb":"tieba_rztb.png","tieba_6tju":"tieba_6tju.png","tieba_9y3u":"tieba_9y3u.png","tieba_d7oj":"tieba_d7oj.png","tieba_5scl":"tieba_5scl.png","tieba_tsid":"tieba_tsid.png","tieba_oo8u":"tieba_oo8u.png","tieba_19kx":"tieba_19kx.png","tieba_9bqk":"tieba_9bqk.png","tieba_ylhj":"tieba_ylhj.png","tieba_1qqt":"tieba_1qqt.png","tieba_bv7l":"tieba_bv7l.png","tieba_m8sh":"tieba_m8sh.png","tieba_8vf4":"tieba_8vf4.png","tieba_gqeo":"tieba_gqeo.png","tieba_e7ce":"tieba_e7ce.png","tieba_sbrr":"tieba_sbrr.png","tieba_pquo":"tieba_pquo.png","bingbujiandan":"bingbujiandan.png","chigua":"chigua.png","feijie":"feijie.png","guile":"guile.png","han":"han.png","shenshou":"shenshou.png","tanshou":"tanshou.png","wabishi":"wabishi.png","wu":"wu.png","xiaoku":"xiaoku.png","yiwen":"yiwen.png","yunbei":"yunbei.png","s2jfd":"s2jfd.png","snrdx":"snrdx.png","srmu2":"srmu2.png","su2d5":"su2d5.png","suqik":"suqik.png","s4bf9":"s4bf9.png","sh8s0":"sh8s0.png","sr718":"sr718.png","swpez":"swpez.png","sxx2q":"sxx2q.png","soka9":"soka9.png","sxka7":"sxka7.png","aini":"aini.png","aoteman":"aoteman.png","awsl":"awsl.png","baibai":"baibai.png","baobao":"baobao.png","beishang":"beishang.png","bishi":"bishi.png","bizui":"bizui.png","chanzui":"chanzui.png","chijing":"chijing.png","dacall":"dacall.png","dahaqi":"dahaqi.png","dalian":"dalian.png","ding":"ding.png","feizao":"feizao.png","ganmao":"ganmao.png","guzhang":"guzhang.png","hahaha":"hahaha.png","haixiu":"haixiu.png","hehe":"hehe.png","heiheihei":"heiheihei.png","heixian":"heixian.png","heng":"heng.png","huaixiao":"huaixiao.png","huaxin":"huaxin.png","jiyan":"jiyan.png","keai":"keai.png","kele":"kele.png","kelian":"kelian.png","ku":"ku.png","kulou":"kulou.png","kun":"kun.png","landelini":"landelini.png","lang":"lang.png","lei":"lei.png","nanhaier":"nanhaier.png","nu":"nu.png","numa":"numa.png","nvhaier":"nvhaier.png","qian":"qian.png","qinqin":"qinqin.png","qiurao":"qiurao.png","shayan":"shayan.png","shengbing":"shengbing.png","shiwang":"shiwang.png","shuai":"shuai.png","shuijiao":"shuijiao.png","sikao":"sikao.png","suan":"suan.png","taikaixin":"taikaixin.png","tian":"tian.png","touxiao":"touxiao.png","tu":"tu.png","tuzi":"tuzi.png","weiqu":"weiqu.png","xingxingyan":"xingxingyan.png","xiongmao":"xiongmao.png","xixi":"xixi.png","xu":"xu.png","yinxian":"yinxian.png","youhengheng":"youhengheng.png","yun":"yun.png","zhuakuang":"zhuakuang.png","zhutou":"zhutou.png","zuohengheng":"zuohengheng.png","geili":"geili.png","hufen":"hufen.png","v5":"v5.png","xi":"xi.png","buyao":"buyao.png","good":"good.png","haha":"haha.png","jiayou":"jiayou.png","lai":"lai.png","ok":"ok.png","quantou":"quantou.png","ruo":"ruo.png","woshou":"woshou.png","ye":"ye.png","zan":"zan.png","zuoyi":"zuoyi.png","dangao":"dangao.png","feiji":"feiji.png","ganbei":"ganbei.png","lazhu":"lazhu.png","liwu":"liwu.png","lvsidai":"lvsidai.png","weibo":"weibo.png","weiguan":"weiguan.png","yinyue":"yinyue.png","zhaoxiangji":"zhaoxiangji.png","zhong":"zhong.png","fuyun":"fuyun.png","shachenbao":"shachenbao.png","taiyang":"taiyang.png","weifeng":"weifeng.png","xianhua":"xianhua.png","xiayu":"xiayu.png","yueliang":"yueliang.png","s0ydu":"s0ydu.png","s96c5":"s96c5.png","s734o":"s734o.png","sb0mc":"sb0mc.png","sbro8":"sbro8.png","sd8cg":"sd8cg.png","sej43":"sej43.png","sf0a6":"sf0a6.png","sh1z2":"sh1z2.png","sir8q":"sir8q.png","sm79n":"sm79n.png","smu8f":"smu8f.png","sns54":"sns54.png","sq67o":"sq67o.png","ss4ix":"ss4ix.png","suwbd":"suwbd.png","sxgjh":"sxgjh.png","sxgt4":"sxgt4.png","sxmjn":"sxmjn.png"},
+      visitor: true
+    }, {"placeholder":"1️⃣评论后如果没有立即显示在评论区刷新页面即可(实际已经评论成功) 2️⃣支持 Github 登录."}))
+  }
+
+  if (typeof Waline === 'function') initWaline() 
+  else getScript('https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js').then(initWaline)
+}
+
+if ('Waline' === 'Waline' || !false) {
+  if (false) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+  'title',
+  '#config-diff',
+  '#body-wrap',
+  '#rightside-config-hide',
+  '#rightside-config-show',
+  '.js-pjax'
+]
+
+if (false) {
+  pjaxSelectors.unshift('meta[property="og:image"]', 'meta[property="og:title"]', 'meta[property="og:url"]')
+}
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // Analytics
+  if (false) {
+    MtaH5.pgv()
+  }
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+
+document.addEventListener('pjax:send', function () {
+  typeof preloader === 'object' && preloader.initLoading()
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script></div></body></html>
