@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.cxplay.org/link/index.html</loc>
+    
+    <lastmod>2021-06-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.cxplay.org/log/index.html</loc>
+    
+    <lastmod>2021-06-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.cxplay.org/works/Lenovo_xiaoxin_pro16_2021_5800h_1650.html</loc>
     
     <lastmod>2021-05-12</lastmod>
@@ -12,20 +26,6 @@
     <loc>http://www.cxplay.org/about/index.html</loc>
     
     <lastmod>2021-04-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.cxplay.org/link/index.html</loc>
-    
-    <lastmod>2021-04-22</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.cxplay.org/log/index.html</loc>
-    
-    <lastmod>2021-04-21</lastmod>
     
   </url>
   
