@@ -4727,13 +4727,10 @@ blockquote footer cite:before {
 .katex-wrap::-webkit-scrollbar {
   display: none;
 }
-mjx-container {
+mjx-container[display],
+.has-jax {
   overflow-x: auto;
   overflow-y: hidden;
-}
-mjx-container:not([display]) {
-  display: inline-grid;
-  max-width: 100%;
 }
 .aplayer {
   color: #4c4948;
